@@ -1,4 +1,5 @@
 const NFTs = [];
+const transitionID = 12344321;
 function metaNFTs(nameis,section,gender,age){
     const objects = {
         "_mame": nameis,
@@ -27,3 +28,4 @@ metaNFTs("sunny",4,"M",14);
 metaNFTs("naini",4,"F",13);
 listNFTs();
 getTotalSupply();
+console.log(transitionID);
